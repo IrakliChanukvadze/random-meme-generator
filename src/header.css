@@ -1,0 +1,27 @@
+.heading {
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+  align-items: center;
+  padding-block: 1.7rem;
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  color: white;
+}
+
+.heading-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: "Inter";
+  letter-spacing: 0.1rem;
+}
+
+.meme-logo {
+  width: 15%;
+  max-width: 90px;
+}
+
+@media screen and (max-width: 480px) {
+  .heading-title {
+    font-size: 1.2rem;
+  }
+}

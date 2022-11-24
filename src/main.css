@@ -1,0 +1,73 @@
+.head-container {
+  width: 84%;
+  margin: auto;
+  margin-top: 2.3rem;
+}
+
+.input-container {
+  display: flex;
+  gap: 10%;
+}
+
+.head-container input {
+  width: 45%;
+  height: 2.5rem;
+  border-radius: 30px;
+  padding-left: 10px;
+  font-size: 1.3rem;
+}
+
+.button {
+  width: 100%;
+  border-radius: 10px;
+  height: 3.5rem;
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  color: white;
+  font-size: 1.3rem;
+  margin-block: 30px 0px;
+}
+
+.image-container {
+  position: relative;
+  margin-block: 2.5rem;
+  height: 100%;
+}
+
+.image {
+  width: 60%;
+  height: auto;
+  margin-left: 20%;
+}
+
+.meme-text {
+  position: absolute;
+  color: white;
+  font-weight: 900;
+  font-size: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.topText {
+  top: 1.5rem;
+}
+
+.bottomText {
+  bottom: 1.5rem;
+}
+.center {
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .input-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .head-container input {
+    width: 90%;
+    margin: auto;
+  }
+}
